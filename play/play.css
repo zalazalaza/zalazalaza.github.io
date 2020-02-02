@@ -1,0 +1,157 @@
+body {
+  font-family:monospace;
+  font-size: 10px;
+  margin-left: 7vh;
+  margin-right:7vh;
+  background: #ddddcc;
+}
+
+a {
+  text-decoration: none;
+}
+
+h3 {
+  position: relative;
+  text-align: center;
+  top:32%;
+  font-size: 5vh;
+  color:rgb(255,255,255,.6);
+}
+
+.art{
+  background-image: url("./art/big_Ace_of_mugs.png");
+  background-size: contain;
+  border:solid 1px;
+  border-radius: 10px;
+}
+
+.center{
+  text-align: center;
+}
+
+.condensed{
+  width:65%;
+  align:left;
+}
+
+
+.darker{
+    color:rgb(240,215,205,.7)
+}
+
+.extra{
+  background-image: url("./extra/extra.jpg");
+  background-size: cover;
+  border:solid 1px;
+  border-radius: 10px;
+}
+
+.family{
+  background-image: url("./family/thisone.jpg");
+  background-size: cover;
+  border:solid 1px;
+  border-radius: 10px;
+}
+
+.grid-container-art {
+  margin-left: 10vh;
+  margin-right:10vh;
+  display:grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.grid-container-play {
+  font-size:12px;
+  margin-left:20px;
+  margin-right:20px;
+  display:grid;
+  grid-template-rows: auto;
+}
+
+.grid-container {
+  display:grid;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-item-art{
+  width:33vh;
+  height:53vh;
+  margin:10px;
+}
+
+.grid-item-play{
+  width:100%;
+  height:auto;
+  margin:10px;
+}
+
+
+.opening{
+  width:50%;
+}
+
+.places {
+  background-image: url("./places/blackandwhiteborohouse.png");
+  background-size:contain;
+  border:solid 1px;
+  border-radius: 10px;
+}
+
+.project-image{
+  margin-right:2vh;
+  width:18vh;
+  height:24vh;
+  float:left;
+}
+
+.project-image-wide{
+  margin-right:2vh;
+  width:18vh;
+  height:12vh;
+  float:left;
+}
+
+.project-image-tarot{
+  margin-right:2vh;
+  width:110px;
+  height:150px;
+  float:left;
+}
+
+.project-paragraph{
+  margin:1%;
+  line-height: 3vh;
+
+}
+
+.tech {
+  background-image: url("./projects/tech.jpg");
+  background-size:cover;
+  border:solid 1px;
+  border-radius: 10px;
+}
+
+.work {
+  background-image: url("./work/alium.jpeg");
+  background-size:cover;
+  border:solid 1px;
+  border-radius: 10px;
+}
+
+#hashter{
+  width:22vh;
+  float:left;
+  margin:2vh;
+}
+
+@media(max-width:950px){
+  .grid-container{
+    grid-template-columns: auto auto;
+  }
+}
+
+@media(max-width:600px){
+  .grid-container{
+    grid-template-columns: auto;
+  }
+}

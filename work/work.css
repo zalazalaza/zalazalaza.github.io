@@ -1,0 +1,136 @@
+a{
+  text-decoration: none;
+}
+
+body{
+  font-family:monospace;
+  font-size: 10px;
+  line-height: 18px;
+  margin: 2%;
+}
+
+h3 {
+  position: relative;
+  text-align: center;
+  top:45%;
+  font-size: 5vh;
+  color:rgb(255,255,255,.6);
+}
+
+.grid-container {
+  display:grid;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-container-small {
+  margin-right:10%;
+  margin-left:10%;
+  display:grid;
+  grid-template-columns:auto auto auto auto;
+}
+
+.grid-container-wide {
+  display:grid;
+  grid-template-columns: auto auto;
+}
+
+.grid-item{
+  width:60vh;
+  height:80.45vh;
+  margin:3vh;
+}
+
+.grid-item-small{
+  width:30vh;
+  height:40.25vh;
+  margin:3vh;
+}
+
+.grid-item-square{
+  width:87vh;
+  height:55vh;
+  margin:3vh;
+}
+
+#lawns {
+  background-image: url("../images/work/5.jpeg");
+  background-size:contain;
+}
+
+#gardens{
+  background-image: url("../images/work/6.jpeg");
+  background-size:contain;
+}
+
+#new{
+  background-image: url("../images/work/gardens/redo5.jpeg");
+  background-size:contain;
+}
+
+#vines{
+  background-image: url("../images/work/gardens/vinesmain.jpeg");
+  background-size:contain;
+}
+
+#flowers{
+  background-image: url("../images/work/gardens/flowers6.jpeg");
+  background-size:contain;
+}
+
+#hedges{
+  background-image: url("../images/work/gardens/hedgesmain.jpeg");
+  background-size:contain;
+}
+
+#complete{
+  background-image: url("../images/work/gardens/completemain.jpeg");
+  background-size:contain;
+}
+
+@media(max-width:950px){
+  .grid-item{
+    width:50vh;
+    height:66.6vh;
+  }
+
+  .grid-container{
+    grid-template-columns: auto auto;
+  }
+
+  .grid-container-small {
+    margin-right:10%;
+    margin-left:10%;
+    display:grid;
+    grid-template-columns:auto auto auto;
+  }
+
+}
+
+@media(max-width:600px){
+
+  body{
+
+    font-size: 10px;
+    line-height: 11px;
+    margin: 2%;
+  }
+
+  .grid-container{
+    margin-right:auto;
+    margin-left:auto;
+    grid-template-columns: auto;
+  }
+
+  .grid-container-small {
+    margin-right:auto;
+    margin-left:auto;
+    display:grid;
+    grid-template-columns:auto;
+  }
+
+  .grid-item-small{
+    width:60vh;
+    height:80.25vh;
+  }
+
+}

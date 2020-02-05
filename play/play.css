@@ -151,6 +151,13 @@ h3 {
 }
 
 @media(max-width:600px){
+  
+  body {
+    margin-left:1vh;
+    margin-right:1vh;
+  }
+  
+  
   .grid-container{
     grid-template-columns: auto;
   }

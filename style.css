@@ -46,7 +46,7 @@ h3 {
   }
 }
 
-@media(max-width:750px){
+@media(max-width:650px){
   .grid-container{
 		margin-left:2%;
 		margin-right:2%;

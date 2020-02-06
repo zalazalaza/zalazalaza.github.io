@@ -161,14 +161,11 @@ h3 {
   .grid-container{
     grid-template-columns: auto;
   }
-
-	.grid-container-play {
-		font-size:12px;
-		margin-left:2vh;
-		margin-right:2vh;
-		display:grid;
-		grid-template-rows: auto;
-	}
+	
+  .grid-container-play{
+    margin-left:2vh;
+    margin-right:2vh;
+   }
 
 
 

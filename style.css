@@ -48,6 +48,8 @@ h3 {
 
 @media(max-width:950px){
   .grid-container{
+		margin-left:2%;
+		margin-right:2%;
     grid-template-columns: auto;
   }
 
